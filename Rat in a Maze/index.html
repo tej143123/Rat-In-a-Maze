@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rat in a Maze</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to CSS -->
+</head>
+<body onload="createMaze()"> <!-- Call JavaScript function on load -->
+    <h1>Rat in a Maze</h1>
+    <select id="levelselect">
+        <option value="1">Level 1</option>
+        <option value="2">Level 2</option>
+        <option value="3">Level 3</option>
+        <option value="4">Level 4</option>
+        <option value="5">Level 5</option>
+        <option value="6">Level 6</option>
+        <option value="7">Level 7</option>
+        <option value="8">Level 8</option>
+    </select>
+    <div id="maze-container">
+        <img src="rat.png" id="rat" width="50px" height="50px" alt="rat">
+        <img src="food.png" id="food" alt="food" width="50px" height="50px">
+    </div>
+    <script src="script.js"></script> <!-- Link to JavaScript -->
+</body>
+</html>
